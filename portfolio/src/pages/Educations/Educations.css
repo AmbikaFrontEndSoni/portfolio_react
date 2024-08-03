@@ -1,0 +1,48 @@
+.education {
+    padding: 100px 0px;
+    margin: 50px 0px;
+    margin-left: 120px;
+    background-color:rgba(243, 196, 238, 0.434);
+  }
+  
+  .education hr {
+    color:rgb(245, 95, 230);
+    width: 400px;
+    margin: 10px auto;
+  }
+  
+  .education h2 {
+    font-weight: bold;
+    /* color:rgb(29, 151, 231); */
+    color:rgb(245, 95, 230);
+  }
+  
+  .education .vertical-timeline-element-title {
+    color:rgb(245, 95, 230);
+  }
+  
+  .education .vertical-timeline-element-subtitle {
+    color: #1e1e2c;
+  }
+  
+  /* ========= DARK MODE ============ */
+  
+  #dark .education {
+    background-color: rgba(255, 255, 255, 0.095);
+  }
+  
+  /* ========================== */
+  @media (max-width: 600px) {
+    .education {
+      margin: 0;
+      padding: 0;
+      margin-top: 30px;
+    }
+    .education h2 {
+      padding-top: 20px;
+    }
+    .education hr {
+      width: 280px;
+      margin-bottom: 10px;
+    }
+  }
